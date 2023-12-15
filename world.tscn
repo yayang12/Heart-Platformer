@@ -12,7 +12,7 @@ script = ExtResource("1_ijuxo")
 polygon = PackedVector2Array(0, 0, 16, 0, 16, 104, 40, 104, 64, 128, 88, 128, 128, 96, 152, 96, 152, 136, 176, 136, 176, 104, 208, 104, 208, 112, 240, 112, 256, 96, 280, 96, 280, 120, 296, 120, 296, 0, 320, 0, 320, 184, 0, 184)
 
 [node name="Polygon2D" type="Polygon2D" parent="StaticBody2D/CollisionPolygon2D"]
-color = Color(0.988235, 0.917647, 0.980392, 1)
+color = Color(0.992157, 0.847059, 0.890196, 1)
 
 [node name="Player" parent="." instance=ExtResource("2_w4leo")]
 position = Vector2(48, 32)
