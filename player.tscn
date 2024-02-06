@@ -1,7 +1,8 @@
-[gd_scene load_steps=13 format=3 uid="uid://bava46tqu3swa"]
+[gd_scene load_steps=14 format=3 uid="uid://bava46tqu3swa"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_v2qwx"]
 [ext_resource type="Texture2D" uid="uid://db34qqr0dkden" path="res://Assets/player.png" id="2_2n4ay"]
+[ext_resource type="Resource" uid="uid://bchsgonfnqpv4" path="res://scripts/SlowMovementData.tres" id="2_n0gmu"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bckgl"]
 atlas = ExtResource("2_2n4ay")
@@ -81,8 +82,9 @@ animations = [{
 size = Vector2(20, 21.5163)
 
 [node name="Player" type="CharacterBody2D"]
-floor_snap_length = 2.0
+floor_snap_length = 3.0
 script = ExtResource("1_v2qwx")
+movement_data = ExtResource("2_n0gmu")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(2.08165e-12, -8.65)
