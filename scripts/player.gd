@@ -23,6 +23,8 @@ func _physics_process(delta):
 	var just_left_ledge = was_on_floor and not is_on_floor() and velocity.y >= 0 
 	if just_left_ledge:
 		coyote_jump_timer.start()
+	if Input.is_action_just_pressed("ui_accept"):
+		movement_data = load("res://scripts/FasterMovementData.tres")
 
 	
 func apply_gravity(delta):
