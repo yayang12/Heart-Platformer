@@ -1,3 +1,8 @@
 res://world.tscn
 res://player.tscn
 res://spikes.tscn
+res://heart.tscn
+res://heart.gd
+res://level_completed.tscn
+res://Events.gd
+res://scripts/world.gd
