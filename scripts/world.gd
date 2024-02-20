@@ -6,7 +6,6 @@ extends Node2D
 
 func _ready():
 	RenderingServer.set_default_clear_color(Color.LIGHT_BLUE)
-	polygon_2d.polygon =  collision_polygon_2d.polygon
 	Events.level_completed.connect(show_level_completed)
 	
 func show_level_completed():

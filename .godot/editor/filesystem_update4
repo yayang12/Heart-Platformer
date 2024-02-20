@@ -4,3 +4,4 @@ res://spikes.tscn
 res://heart.tscn
 res://level_completed.tscn
 res://scripts/world.gd
+res://level_tile_map.tscn
