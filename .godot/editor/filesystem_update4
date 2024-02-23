@@ -1,7 +1,10 @@
+res://world.tscn
 res://player.tscn
 res://spikes.tscn
+res://hazard_area.tscn
 res://heart.tscn
-res://level_completed.tscn
+res://level_one.tscn
+res://world_copy.tscn
 res://level_tile_map.tscn
 res://level_one.tscn
 res://world_copy.tscn

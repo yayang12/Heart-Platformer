@@ -1,9 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://b1xrx68upfxba"]
+[gd_scene load_steps=7 format=3 uid="uid://dvd3y0oxk4xco"]
 
 [ext_resource type="Script" path="res://scripts/world.gd" id="1_v677i"]
 [ext_resource type="PackedScene" uid="uid://bava46tqu3swa" path="res://player.tscn" id="2_w768o"]
-[ext_resource type="PackedScene" uid="uid://uy7qlnuhvgbd" path="res://spikes.tscn" id="3_p51jg"]
-[ext_resource type="PackedScene" uid="uid://cjbskdvyabu2b" path="res://heart.tscn" id="4_hu1qk"]
+[ext_resource type="PackedScene" uid="uid://dxr8135u6oqxq" path="res://spikes.tscn" id="3_p51jg"]
+[ext_resource type="PackedScene" uid="uid://2hnhhw6c4k4i" path="res://heart.tscn" id="4_hu1qk"]
 [ext_resource type="PackedScene" uid="uid://dtuwmurhrvn3j" path="res://level_completed.tscn" id="5_yt8yg"]
 [ext_resource type="PackedScene" uid="uid://cvb3jm7dd3iym" path="res://level_tile_map.tscn" id="6_tiygt"]
 
