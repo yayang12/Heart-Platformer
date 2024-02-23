@@ -1,8 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://64qokh4ycqbs"]
+[gd_scene load_steps=5 format=3 uid="uid://cg1fohbt657uj"]
 
 [ext_resource type="PackedScene" uid="uid://duccr7vcu7qld" path="res://world.tscn" id="1_6ymu2"]
-[ext_resource type="PackedScene" uid="uid://dxr8135u6oqxq" path="res://spikes.tscn" id="2_yvivi"]
-[ext_resource type="PackedScene" uid="uid://2hnhhw6c4k4i" path="res://heart.tscn" id="3_dnknh"]
+[ext_resource type="PackedScene" uid="uid://uy7qlnuhvgbd" path="res://spikes.tscn" id="2_yvivi"]
+[ext_resource type="PackedScene" uid="uid://cjbskdvyabu2b" path="res://heart.tscn" id="3_dnknh"]
 [ext_resource type="PackedScene" uid="uid://cvb3jm7dd3iym" path="res://level_tile_map.tscn" id="4_53inm"]
 
 [node name="LevelOne" instance=ExtResource("1_6ymu2")]
