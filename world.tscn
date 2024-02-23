@@ -9,8 +9,7 @@
 script = ExtResource("1_ijuxo")
 
 [node name="Player" parent="." instance=ExtResource("2_w4leo")]
-position = Vector2(2.08165e-12, 2.08165e-12)
-up_direction = Vector2(1, 2.94434e-12)
+position = Vector2(-25, 44)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
