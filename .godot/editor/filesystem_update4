@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 res://level_tile_map.tscn
 res://world.tscn
 =======
+=======
+>>>>>>> parent of 7c1a962 (16:11 update)
 res://player.tscn
 res://spikes.tscn
 res://heart.tscn
@@ -11,4 +14,7 @@ res://level_one.tscn
 res://world_copy.tscn
 res://world.tscn
 res://level_two.tscn
+<<<<<<< HEAD
+>>>>>>> parent of 7c1a962 (16:11 update)
+=======
 >>>>>>> parent of 7c1a962 (16:11 update)
