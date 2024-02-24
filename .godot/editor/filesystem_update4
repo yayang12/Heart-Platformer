@@ -4,3 +4,6 @@ res://Scenes/world.tscn
 res://Scenes/spikes.tscn
 res://Scenes/player.tscn
 res://level_one.tscn
+res://level_two.tscn
+res://world.tscn
+res://world_copy.tscn
