@@ -7,7 +7,7 @@
 [node name="LevelTwo" instance=ExtResource("1_h8013")]
 
 [node name="Player" parent="." index="0"]
-position = Vector2(-149, -4)
+position = Vector2(-150, -1)
 
 [node name="LevelTileMap" parent="." index="2"]
 position = Vector2(0, 0)
