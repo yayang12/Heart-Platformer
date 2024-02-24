@@ -1,7 +1,7 @@
 extends Node2D
 
-@export var next_level : PackedScene
-
+@onready var collision_polygon_2d = $StaticBody2D/CollisionPolygon2D
+@onready var polygon_2d = $StaticBody2D/CollisionPolygon2D/Polygon2D
 @onready var level_completed = $CanvasLayer/LevelCompleted
 
 func _ready():
@@ -10,6 +10,4 @@ func _ready():
 	
 func show_level_completed():
 		level_completed.show()
-		if not next_level is PackedScene: return
-		get_tree().change_scene_to_packed(next_level)
-		#get_tree().paused = true
+		get_tree().paused = true
