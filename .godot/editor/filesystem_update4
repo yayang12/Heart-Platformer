@@ -14,3 +14,4 @@ res://Scenes/level_two.tscn
 res://player.tscn
 res://scripts/player.gd
 res://start_menu.tscn
+res://start_menu.gd
