@@ -1,6 +1,8 @@
-res://scripts/world.gd
 res://level_tile_map.tscn
-res://level_transition.tscn
-res://level_transition.gd
-res://player.tscn
+res://Scenes/heart.tscn
+res://Scenes/world.tscn
+res://Scenes/spikes.tscn
+res://Scenes/player.tscn
 res://world_copy.tscn
+res://level_two.tscn
+res://world.tscn
