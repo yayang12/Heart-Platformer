@@ -3,12 +3,15 @@
 [ext_resource type="Script" path="res://scripts/world.gd" id="1_ijuxo"]
 [ext_resource type="PackedScene" uid="uid://c47hmnk3aqist" path="res://level_two.tscn" id="2_lumpn"]
 [ext_resource type="PackedScene" uid="uid://dtuwmurhrvn3j" path="res://level_completed.tscn" id="5_2tgyt"]
-[ext_resource type="PackedScene" uid="uid://bava46tqu3swa" path="res://player.tscn" id="5_g63fm"]
+[ext_resource type="PackedScene" uid="uid://bava46tqu3swa" path="res://Scenes/player.tscn" id="5_g63fm"]
 [ext_resource type="PackedScene" uid="uid://cvb3jm7dd3iym" path="res://level_tile_map.tscn" id="6_h45ct"]
 
 [node name="World2" type="Node2D"]
 script = ExtResource("1_ijuxo")
 next_level = ExtResource("2_lumpn")
+
+[node name="Player" parent="." instance=ExtResource("5_g63fm")]
+position = Vector2(-25, 44)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
@@ -18,6 +21,3 @@ color = Color(0.937255, 0.666667, 0.772549, 0.32549)
 
 [node name="LevelTileMap" parent="." instance=ExtResource("6_h45ct")]
 position = Vector2(2.08165e-12, 2.08165e-12)
-
-[node name="Player" parent="." instance=ExtResource("5_g63fm")]
-position = Vector2(-25, 44)
