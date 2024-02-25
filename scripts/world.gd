@@ -15,5 +15,4 @@ func show_level_completed():
 		await LevelTransition.fade_to_pink()
 		get_tree().paused = false
 		get_tree().change_scene_to_packed(next_level)
-		LevelTransition.fade_from_black
-		
+		LevelTransition.fade_from_pink()
