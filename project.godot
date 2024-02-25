@@ -11,8 +11,8 @@ config_version=5
 [application]
 
 config/name="Heart-platformer"
-run/main_scene="res://level_one.tscn"
-config/features=PackedStringArray("4.2", "Forward Plus")
+run/main_scene="res://level_two.tscn"
+config/features=PackedStringArray("4.1", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]

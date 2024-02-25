@@ -1,10 +1,12 @@
-[gd_scene load_steps=4 format=3 uid="uid://c47hmnk3aqist"]
+[gd_scene load_steps=5 format=3 uid="uid://c47hmnk3aqist"]
 
 [ext_resource type="PackedScene" uid="uid://duccr7vcu7qld" path="res://Scenes/world.tscn" id="1_h8013"]
+[ext_resource type="PackedScene" uid="uid://64qokh4ycqbs" path="res://level_one.tscn" id="2_cgx5m"]
 [ext_resource type="PackedScene" uid="uid://2hnhhw6c4k4i" path="res://Scenes/heart.tscn" id="2_x8uwp"]
 [ext_resource type="PackedScene" uid="uid://dxr8135u6oqxq" path="res://Scenes/spikes.tscn" id="3_8nt64"]
 
 [node name="LevelTwo" instance=ExtResource("1_h8013")]
+next_level = ExtResource("2_cgx5m")
 
 [node name="Player" parent="." index="0"]
 position = Vector2(-150, -1)
@@ -41,16 +43,16 @@ position = Vector2(-113, 6)
 position = Vector2(-103, -124)
 
 [node name="Heart4" parent="." index="12" instance=ExtResource("2_x8uwp")]
-position = Vector2(71, -120)
+position = Vector2(70, -124)
 
 [node name="Heart5" parent="." index="13" instance=ExtResource("2_x8uwp")]
-position = Vector2(119, -33)
+position = Vector2(119, -35)
 
 [node name="Heart6" parent="." index="14" instance=ExtResource("2_x8uwp")]
-position = Vector2(124, -110)
+position = Vector2(125, -108)
 
 [node name="Heart7" parent="." index="15" instance=ExtResource("2_x8uwp")]
 position = Vector2(23, -92)
 
 [node name="Heart8" parent="." index="16" instance=ExtResource("2_x8uwp")]
-position = Vector2(85, -82)
+position = Vector2(88, -79)
