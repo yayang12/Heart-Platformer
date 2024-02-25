@@ -1,0 +1,75 @@
+[gd_scene load_steps=6 format=3 uid="uid://bax2yhuewiwe4"]
+
+[ext_resource type="Script" path="res://level_transition.gd" id="1_do58b"]
+
+[sub_resource type="Animation" id="Animation_6j1ia"]
+resource_name = "fade_to_pink"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimationPlayer/ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 0.898039, 0.992157, 0), Color(1, 0.898039, 0.992157, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_js8va"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimationPlayer/ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 0.898039, 0.992157, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_p8xts"]
+resource_name = "fade_from_pink"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimationPlayer/ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0.890196, 0, 0.901961, 1), Color(0.890196, 0, 0.901961, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_urx4b"]
+_data = {
+"RESET": SubResource("Animation_js8va"),
+"fade_from_pink": SubResource("Animation_p8xts"),
+"fade_to_pink": SubResource("Animation_6j1ia")
+}
+
+[node name="LevelTransition" type="CanvasLayer"]
+process_mode = 3
+layer = 10
+script = ExtResource("1_do58b")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_urx4b")
+}
+
+[node name="ColorRect" type="ColorRect" parent="AnimationPlayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 0.898039, 0.992157, 0)

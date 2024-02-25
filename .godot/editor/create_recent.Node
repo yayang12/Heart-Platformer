@@ -1,10 +1,11 @@
+CanvasLayer
+ColorRect
+AnimationPlayer
+Node
 Node2D
 Area2D
 TileMap
-CanvasLayer
-Node
 Label
-ColorRect
 CenterContainer
 Control
 CollisionShape2D
