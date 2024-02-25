@@ -4,3 +4,8 @@ res://Scenes/heart.tscn
 res://Scenes/world.tscn
 res://Scenes/spikes.tscn
 res://Scenes/player.tscn
+res://world.tscn
+res://level_two.tscn
+res://level_one.tscn
+res://level_transition.tscn
+res://scripts/world.gd
