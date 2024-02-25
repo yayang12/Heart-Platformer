@@ -4,3 +4,5 @@ res://level_transition.tscn
 res://level_transition.gd
 res://player.tscn
 res://world_copy.tscn
+res://level_two.tscn
+res://world.tscn
