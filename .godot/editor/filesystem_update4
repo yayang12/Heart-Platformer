@@ -3,3 +3,4 @@ res://start_menu.tscn
 res://level_transition.tscn
 res://world_copy.tscn
 res://world.tscn
+res://scripts/player.gd
