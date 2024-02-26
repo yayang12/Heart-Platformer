@@ -1,12 +1,17 @@
-[gd_resource type="Theme" load_steps=3 format=3 uid="uid://blhqps45omcuq"]
+[gd_resource type="Theme" load_steps=4 format=3 uid="uid://blhqps45omcuq"]
 
-[ext_resource type="StyleBox" uid="uid://3l3mqhymi5c6" path="res://black_9slice.tres" id="1_h7ghb"]
-[ext_resource type="StyleBox" uid="uid://d3pxc1booy8vp" path="res://white_9slice.tres" id="2_vmbov"]
+[ext_resource type="StyleBox" uid="uid://3l3mqhymi5c6" path="res://Assets/black_9slice.tres" id="1_h7ghb"]
+[ext_resource type="StyleBox" uid="uid://d3pxc1booy8vp" path="res://Assets/white_9slice.tres" id="2_vmbov"]
+[ext_resource type="FontFile" uid="uid://cct61o865aun0" path="res://Assets/pixel_font.ttf" id="3_wlypa"]
 
 [resource]
+default_font = ExtResource("3_wlypa")
 Button/colors/font_color = Color(1, 1, 1, 1)
+Button/colors/font_disabled_color = Color(0.87451, 0.87451, 0.87451, 0)
 Button/colors/font_focus_color = Color(0, 0, 0, 1)
 Button/colors/font_hover_color = Color(0, 0, 0, 1)
+Button/colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+Button/colors/font_outline_color = Color(1, 1, 1, 1)
 Button/colors/font_pressed_color = Color(1, 1, 1, 1)
 Button/font_sizes/font_size = 6
 Button/styles/focus = ExtResource("2_vmbov")

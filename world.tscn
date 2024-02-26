@@ -3,10 +3,10 @@
 [ext_resource type="Script" path="res://scripts/world.gd" id="1_ijuxo"]
 [ext_resource type="PackedScene" uid="uid://c47hmnk3aqist" path="res://level_two.tscn" id="2_lumpn"]
 [ext_resource type="PackedScene" uid="uid://dtuwmurhrvn3j" path="res://level_completed.tscn" id="5_2tgyt"]
-[ext_resource type="PackedScene" uid="uid://bava46tqu3swa" path="res://player.tscn" id="5_mrui8"]
+[ext_resource type="PackedScene" uid="uid://bava46tqu3swa" path="res://Scenes/player.tscn" id="5_mrui8"]
 [ext_resource type="PackedScene" uid="uid://cvb3jm7dd3iym" path="res://level_tile_map.tscn" id="6_h45ct"]
 
-[node name="World2" type="Node2D"]
+[node name="World3" type="Node2D"]
 script = ExtResource("1_ijuxo")
 next_level = ExtResource("2_lumpn")
 
