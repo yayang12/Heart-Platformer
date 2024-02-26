@@ -1,11 +1,13 @@
-[gd_scene load_steps=5 format=3 uid="uid://cg1fohbt657uj"]
+[gd_scene load_steps=6 format=3 uid="uid://cg1fohbt657uj"]
 
-[ext_resource type="PackedScene" uid="uid://duccr7vcu7qld" path="res://Scenes/world.tscn" id="1_6ymu2"]
+[ext_resource type="PackedScene" uid="uid://duccr7vcu7qld" path="res://world.tscn" id="1_6ymu2"]
+[ext_resource type="PackedScene" uid="uid://dy6iekpws7meo" path="res://Scenes/level_two2.tscn" id="2_htaar"]
 [ext_resource type="PackedScene" uid="uid://dxr8135u6oqxq" path="res://Scenes/spikes.tscn" id="2_yvivi"]
 [ext_resource type="PackedScene" uid="uid://2hnhhw6c4k4i" path="res://Scenes/heart.tscn" id="3_dnknh"]
-[ext_resource type="PackedScene" uid="uid://cvb3jm7dd3iym" path="res://Scenes/level_tile_map.tscn" id="4_53inm"]
+[ext_resource type="PackedScene" uid="uid://cvb3jm7dd3iym" path="res://level_tile_map.tscn" id="4_53inm"]
 
 [node name="LevelOne" instance=ExtResource("1_6ymu2")]
+next_level = ExtResource("2_htaar")
 
 [node name="Spikes5" parent="." index="2" instance=ExtResource("2_yvivi")]
 position = Vector2(97, 72)
